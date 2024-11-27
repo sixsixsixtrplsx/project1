@@ -4,4 +4,5 @@
 # Создали структуру (фон, картинки, скрипт и стили). Занесли в папки файл ReadME и объяснили зачем эта папка.
 # Сделали индексный файл.
 # Создали струтуру проекта и добавили файлы.
-# sect,div,h2,a, 
+# Макет: 
+# https://www.figma.com/design/BvIW4tOb68Eal1mFpBK6ys/Splice-Landing-Page-(Community)-(Copy)?node-id=4002-32&node-type=frame
