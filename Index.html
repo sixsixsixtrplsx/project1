@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="header__logo">
             <img src="img/logo.png" alt="logo">
         </div>
 
-        <nav>
+        <nav class="header__pagination">
             <ul>
-                <li><a href="studiopage.html">STUDIO</a> </li>
+                <li class="header-pagination__item"><a href="studiopage.html">STUDIO</a> </li>
                 <li><a href="coummunitypage.html">COMMUNITY</a></li>
                 <li><a href="soundspage.html">SOUNDS</a></li>
                 <li><a href="pluginspage.html">PLUGINS</a></li>
@@ -27,149 +27,158 @@
     </header>
 
     <main>
-    <section>
-    <div>
-        <h2 class="card__title"> Where your <br>
-            music starts </h2>
-    </div>
-    <div>
-        <p class="card__discription">
-            Royalty-free sounds. Industry-leading software. <br>
-            Endless inspiration. Start creating with Splice.
-        </p>
-    </div>
-    <div>
-        <img src="img/photo.png" alt="">
-    </div>
-    </section>
-    
-    <section>
-        <h2>FEATURED IN</h2>
-        <img src="img/variety.png" alt="Variety">
-        <img src="img/verge.png" alt="Verge">
-        <img src="img/billboard.png" alt="Billboard">
-        <img src="img/wired.png" alt="Wired">
-        <img src="img/complex.png" alt="Complex">
-    </section>
+        <section class="card">
+            <h1 class="card__title"> Where your music starts </h1>
+            <h2 class="card__subtitle">
+                Royalty-free sounds. Industry-leading software.
+                Endless inspiration. Start creating with Splice.
+            </h2>
+            <img src="img/photo.png" alt="" class="card__image">
+            <button class="button card__button" type="button" name="sign up">SIGN UP</button>
+        </section>
 
-    <section>
-        <h1>SOUNDS</h1>
-        <h2>Find your sound</h2>
-        <p>
-            Preview and download millions of royalty-free samples from<br>
-            top producers, artists and sound designers. Available on<br>
-            desktop, web, and mobile.<br>
-            <button type="button" name="try sounds">TRY SOUNDS</button>
-        </p>
-        
-        <img src = "img/packs.png" alt = "Звуки">
-    </section>
+        <section class="section-featured">
+            <h2 class="section-featured__subtitle">FEATURED IN</h2>
+            <img src="img/variety.png" alt="Variety" class="section-featured__image">
+            <img src="img/verge.png" alt="Verge" class="section-featured_image">
+            <img src="img/billboard.png" alt="Billboard" class="section-featured_image">
+            <img src="img/wired.png" alt="Wired" class="section-featured_image">
+            <img src="img/complex.png" alt="Complex" class="section-featured_image">
+        </section>
 
-    <section>
-        <h1>PLUGINS</h1>
-        <h2>Build your digital studio</h2>
-        <p>Try industry-leading music software for free, pay it off over time and own it forever<br>
-        <button type="button" name="try sounds">TRY GEAR</button></p>
-    </section>
+        <section class="section-sounds">
+            <h1 class="section-sounds__title">SOUNDS</h1>
+            <h2 class="section-sounds__subtitle">Find your sound</h2>
+            <p class="section-sounds__text">
+                Preview and download millions of royalty-free samples from<br>
+                top producers, artists and sound designers. Available on<br>
+                desktop, web, and mobile.<br>
+                <button class="button section-sounds__button" type="button" name="try sounds">TRY SOUNDS</button>
+            </p>
+
+            <img src="img/packs.png" alt="Sound">
+        </section>
+
+        <section class="section-plugins">
+            <h1 class="section-plugins__title">PLUGINS</h1>
+            <h2 class="section-plugins__title">Build your digital studio</h2>
+            <p class="section-plugins__text">Try industry-leading music software for free, pay it off over time and own
+                it forever<br>
+                <button class="button section-plugins__button" type="button" name="try sounds">TRY GEAR</button>
+            </p>
+        </section>
+
+        <section class="section-studio">
+            <h1 class="section-studio__title">STUDIO</h1>
+            <h2 class="section-studio__subtitle">Stay in sync</h2>
+            <p class="section-studio__text">Try industry-leading music software for free, pay it off over time and own
+                it forever<br>
+                <button class="button section-studio__button" type="button" name="try sounds">TRY STUDIO</button>
+            </p>
+        </section>
+
+        <section class="section-desc">
+            <h1 class="section-desc__title">What creators are saying about Splice</h1>
+            <p class="section-desc__text">
+                Lorem ipsum dolor sit amet, consectetur<br>
+                adipiscing elit. Augue tellus uma, mi velit<br>
+                diam. Turpis diam amet massa id.<br>
+                <button class="button section-desc__button" type="button" name="try it now">TRY IT NOW</button>
+            </p>
+            <h2 class="section-benefits__subtitle">As good as it sounds</h2>
+            <div class="section-benefits__container">
+                <img src="img/Volume Up.svg" class="section-benefits__icon">
+                <h3 class="section-benefits__subtitle">100 royalty free</h3>
+                <p>Use sound for anything. They re cleared for commercial use</p>
+            </div>
+            <div class="class-benefits__container">
+                <img src="img/Unock.svg" class="section-benefits__icon">
+                <h3>No commitments</h3>
+                <p>Cancel your subscription at any time, no questions asked.</p>
+            </div>
+            <div class="class-benefits__container">
+                <img src="img/Download.svg" class="section-benefits__icon">
+                <h3>Yours forever</h3>
+                <p>Keep everything you download.<br>
+                    Even if you cancel</p>
+            </div>
+            <div class="class-benefits__container">
+                <img src="img/Play.svg" class="section-benefits__icon">
+                <h3>Individual samples</h3>
+                <p>Preview download individual samples, not just full packs</p>
+            </div>
+            <h1>Come change the way people make music</h1>
+            <button class="button section-benefits__button" type="button" name="try sounds">JOBS AT SPLICE</button>
+        </section>
     </main>
 
-    <section>
-        <h1>STUDIO</h1>
-        <h2>Stay in sync</h2>
-        <p>Try industry-leading music software for free, pay it off over time and own it forever<br>
-        <button type="button" name="try sounds">TRY STUDIO</button></p>
-    </section>
+    <footer class="footer">
+        <img src="img/logo.png" alt="logo" class="footer__logo">
+        <p class="footer__text">2021 Splice.com All Rights Reserved</p>
+        <h2 class="footer__subtitle">STUDIO</h2>
+        <ul class="footer__list">
+            <li class="footer__item" a href="#">Features</a></li>
+            <li class="footer__item" a href="#">About Splice Studio</a></li>
+            <li class="footer__item" a href="#">Managing Your Production Library</a></li>
+            <li class="footer__item" a href="#">Collaborating with Baewatch</a></li>
+        </ul>
+        
+        <div>
+            <h2 class="footer__subtitle">COMMUNITY</h2>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#">Ableton Live Projects</a></li>
+                <li class="footer__item"><a href="#">About Splice Studio</a></li>
+                <li class="footer__item"><a href="#">Managing Your Production Library</a></li>
+                <li class="footer__item"><a href="#">Collaborating with Baewatch</a></li>
+            </ul>
+        </div>
 
-    <section>
-        <h1>What creators are saying about Splice</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur<br>
-            adipiscing elit. Augue tellus uma, mi velit<br>
-            diam. Turpis diam amet massa id.
+        <h2 class="footer__subtitle">SOUNDS</h2>
+        <ul class="footer__list">
+            <li class="footer__item"><a href="#">Features</a></li>
+            <li class="footer__item"><a href="#">Catalog</a></li>
+            <li class="footer__item"><a href="#">How Hauz Uses Sounds</a></li>
+            <li class="footer__item"><a href="#">deadmau5s Chimaera</a></li>
+            <li class="footer__item"><a href="#">KSHMR Vol.2</a></li>
+        </ul>
+
+        <h2 class="footer__subtitle">PLUGINS</h2>
+        <ul class="footer__list">
+            <li class="footer__item"><a href="#">Top VSTs</a></li>
+            <li class="footer__item"><a href="#">Serum</a></li>
+            <li class="footer__item"><a href="#">Rent to Own</a></li>
+            <li class="footer__item"><a href="#">Free Plugins</a></li>
+            <li class="footer__item"><a href="#">Top Manufacturers</a></li>
+        </ul>
+
+        <h2 class="footer__subtitle">BEATMAKER</h2>
+        <ul class="footer__list">
+            <li class="footer__item"><a href="#">Create Your Own Beat</a></li>
+            <li class="footer__item"><a href="#">Wakapella</a></li>
+            <li class="footer__item"><a href="#">Just Blaze</a></li>
+        </ul>
+
+        <h2 class="footer__subtitle">BLOG</h2>
+        <ul class="footer__list">
+            <li class="footer__item" a href="#">Latest Posts</a></li>
+            <li class="footer__item" a href="#">Using Soundtoys Decapitator</a></li>
+            <li class="footer__item" a href="#">Mastering 101</a></li>
+            <li class="footer__item" a href="#">Belonging at Splice</a></li>
+        </ul>
+
+        <h2 class="footer_subtitle">FIND IS ON SOCIAL</h2>
+        <div class="footer__class">
+            <img src="img/facebooklogo.svg" alt="facebook">
+            <img src="img/twitterlogo.svg" alt="twitter">
+            <img src="img/instalogo.svg" alt="instagram">
+            <img src="img/ytlogo.svg" alt="youtube">
+        </div>
+        <p class="footer__text">Terms of Use
+            Privacy Policy
+            Jobs
+            Contact
+            Help
         </p>
-    </section>
-
-    <section>
-        <h1>As good as it sounds</h1>
-        <img src="img/Volume Up.svg">
-        <h3>100 royalty free</h3>
-        <p>Use sound for anything. They re cleared for commercial use</p>
-        <img src="img/Unock.svg">
-        <h3>No commitments</h3>
-        <p>Cancel your subscription at any time, no questions asked.</p>
-        <img src="img/Download.svg">
-        <h3>Yours forever</h3>
-        <p>Keep everything you download.<br>
-        Even if you cancel</p>
-        <img src="img/Play.svg">
-        <h3>Individual samples</h3>
-        <p>Preview download individual samples, not just full packs</p>
-        <h1>Come change the way people make music</h1>
-        <button type="button" name="try sounds">JOBS AT SPLICE</button>
-    </section>
-    <footer>
-    <img src="img/logo.png" alt="logo">
-    <p>2021 Splice.com All Rights Reserved</p>
-    <h2>STUDIO</h2>
-    <ul>
-        <li>Features</li>
-        <li>About Splice Studio</li>
-        <li>Managing Your Production Library</li>
-        <li>Collaborating with Baewatch</li>
-    </ul>
-
-    <h2>COMMUNITY</h2>
-    <ul>
-        <li>Ableton Live Projects</li>
-        <li>About Splice Studio</li>
-        <li>Managing Your Production Library</li>
-        <li>Collaborating with Baewatch</li>
-    </ul>
-
-    <h2>SOUNDS</h2>
-    <ul>
-        <li>Features</li>
-        <li>Catalog</li>
-        <li>How Hauz Uses Sounds</li>
-        <li>deadmau5s Chimaera</li>
-        <li>KSHMR Vol.2</li>
-    </ul>
-
-    <h2>PLUGINS</h2>
-    <ul>
-        <li>Top VSTs</li>
-        <li>Serum</li>
-        <li>Rent to Own</li>
-        <li>Free Plugins</li>
-        <li>Top Manufacturers</li>
-    </ul>
-
-    <h2>BEATMAKER</h2>
-    <ul>
-        <li>Create Your Own Beat</li>
-        <li>Wakapella</li>
-        <li>Just Blaze</li>
-    </ul>
-
-    <h2>BLOG</h2>
-    <ul>
-        <li>Latest Posts</li>
-        <li>Using Soundtoys Decapitator</li>
-        <li>Mastering 101</li>
-        <li>Belonging at Splice</li>
-    </ul>
-
-    <h2>FIND IS ON SOCIAL</h2>
-    <img src="img/facebooklogo.svg" alt="facebook">
-    <img src="img/twitterlogo.svg" alt="twitter">
-    <img src="img/instalogo.svg" alt="instagram">
-    <img src="img/ytlogo.svg" alt="youtube">
-    <p>Terms of Use
-        Privacy Policy
-        Jobs
-        Contact
-        Help
-    </p>
     </footer>
 </body>
 
