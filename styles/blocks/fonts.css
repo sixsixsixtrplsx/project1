@@ -1,0 +1,7 @@
+@font-face{
+    font-family: "Shne Breit";
+    src: local('Shne Breit'),
+        url("/fonts/Shne_Breit/Shne_Breit.woff2") format("woff2");
+        font-style: normal;
+        font-weight: normal;
+}
