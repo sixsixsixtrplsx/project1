@@ -1,3 +1,7 @@
 .section{
     font-family:"Shne Breit";
 }
+
+.section__promo{
+    margin-left: 81px
+}

@@ -3,3 +3,10 @@ body{
     font-family: "Shne Breit", Arial, sans-serif;
     font-size: 18px;
 }
+
+.wrapper{
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
