@@ -14,14 +14,17 @@
 }
 
 .header__pagination{
-    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    list-style: none;
+    gap: 40px;
 
-    width: 1088px;
-    height: 32px;
-    top: 42px;
-    left: 273px;
-    gap: 0px;
-    border-radius: 105px 0px 0px 0px;
-    opacity: 0px;
 
 }
+
+.header__pagination-item {
+    display: inline-block;
+    
+    font-size: 10px;
+  }

@@ -10,18 +10,20 @@
 </head>
 
 <body>
+    <!-- Заголовок -->
     <header class="header">
+        
         <div class="header__logo">
             <img src="img/logo.png" alt="logo">
         </div>
 
-        <nav class="header__pagination">
-            <ul>
-                <li class="header-pagination__item"><a href="studiopage.html">STUDIO</a> </li>
-                <li class="header-pagination__item"><a href="coummunitypage.html">COMMUNITY</a></li>
-                <li class="header-pagination__item"><a href="soundspage.html">SOUNDS</a></li>
-                <li class="header-pagination__item"><a href="pluginspage.html">PLUGINS</a></li>
-                <li class="header-pagination__item"><a href="blogpage.html">BLOG</a></li>
+        <nav class="header__navigation">
+            <ul class="header__pagination">
+                <li class="header__pagination-item"><a href="studiopage.html">STUDIO</a> </li>
+                <li class="header__pagination-item"><a href="coummunitypage.html">COMMUNITY</a></li>
+                <li class="header__pagination-item"><a href="soundspage.html">SOUNDS</a></li>
+                <li class="header__pagination-item"><a href="pluginspage.html">PLUGINS</a></li>
+                <li class="header__pagination-item"><a href="blogpage.html">BLOG</a></li>
             </ul>
         </nav>
         
@@ -29,18 +31,26 @@
         <button class="button header__button" type="button" name="log in">LOG IN</button>
         
     </header>
+    <!-- /Заголовок -->
 
-    <main>
-        <section class="card">
-            <h1 class="card__title"> Where your music starts </h1>
-            <h2 class="card__subtitle">
-                Royalty-free sounds. Industry-leading software.
+    <main class="container">
+        <!-- Первый экран -->
+        <section class="section promo">
+            <div class="promo__content">
+            <h2 class="promo__title"> Where your music starts </h2>
+            <p class="promo__description">
+                Royalty-free sounds. Industry-leading software.<br>
                 Endless inspiration. Start creating with Splice.
-            </h2>
-            <img class="card__image" src="img/photo.png" alt="">
-            <button class="button card__button" type="button" name="sign up"><a href = "#">SIGN UP</a></button>
+            </p>
+            </div>
+            <div class="promo__buttons">
+            <button class="promo__button button" type="button" name="sign up"><a href = "#">SIGN UP</a></button>
+            </div>
+            <img class="card__image" src="img/photo.png" alt="Фон">
         </section>
+        <!-- /Первый экран -->
 
+        <!-- Второй экран -->
         <section class="section-featured">
             <h2 class="section-featured__subtitle">FEATURED IN</h2>
             <img class="section-featured__image" src="img/variety.png" alt="Variety">
@@ -49,6 +59,7 @@
             <img class="section-featured_image" src="img/wired.png" alt="Wired" >
             <img class="section-featured_image" src="img/complex.png" alt="Complex">
         </section>
+        <!-- /Второй экран -->
 
         <section class="section-sounds">
             <h1 class="section-sounds__title">SOUNDS</h1>
