@@ -1,0 +1,35 @@
+.section__promo{
+    height: 714px;
+}
+
+.promo__image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 200px;
+}
+
+.promo__description{
+    color: #595959;
+    margin-bottom: 34px;
+}
+
+.promo__button{
+    font-family: "Shne Breit", Arial, sans-serif;
+    color: white;
+    background-color: #0033FF;
+    border-width: 0px;
+    border-radius: 105px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    cursor: pointer;
+    font-size: 12px;
+    
+}
+
+.promo__button-link{
+    text-decoration: none;
+    color: white;
+}
