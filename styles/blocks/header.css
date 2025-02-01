@@ -1,11 +1,11 @@
 .header{
     display: flex;
+    position: relative;
     align-items: center;
     margin-left: 81px;
+    padding-top: 42px;
     font-size: 10px;
-    margin-top: 42px;
     column-gap: 79px;
-    position: relative;
     z-index: 1;
 }
 

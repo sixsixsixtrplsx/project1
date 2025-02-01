@@ -1,0 +1,17 @@
+.section__featured{
+    position: relative;
+    height: 101px;
+    margin-left: 194px;
+    margin-right: 194px;
+    text-align: center;
+}
+
+.featured__subtitle{
+    font-size: 13px;
+}
+
+.featured__images{
+    display: grid;
+    grid-template-columns: repeat(5, 147px);
+    gap: 79px;
+}

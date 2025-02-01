@@ -12,6 +12,7 @@
 .promo__description{
     color: #595959;
     margin-bottom: 34px;
+    z-index: 1;
 }
 
 .promo__button{
