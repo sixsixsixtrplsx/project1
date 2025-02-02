@@ -1,25 +1,14 @@
-.section__sounds{
-    position: relative;
-    text-align: center;
-    height: 832px;
-}
-
-.sounds__title{
+.plugins__title{
     font-size: 16px;
     color: #60606080;
 }
 
-.sounds__subtitle{
+.plugins__subtitle{
     font-size: 48px;
     font-weight: bold;
-    color: #272727;
 }
 
-.sounds__text{
-    color: #60606080;
-}
-
-.sounds__button{
+.plugins__button{
     font-family: "Shne Breit", Arial, sans-serif;
     color: white;
     background-color: #0033FF;
@@ -27,18 +16,13 @@
     border-radius: 105px;
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 11px;
+    padding-top: 14px;
     padding-bottom: 11px;
     cursor: pointer;
     font-size: 12px;   
 }
 
-.sounds__button-link{
+.plugins__button-link{
     text-decoration: none;
     color: white;
-}
-
-.sounds__images{
-    display: flex;
-    justify-content: center;
 }

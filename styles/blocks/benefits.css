@@ -1,0 +1,22 @@
+.section-benefits{
+    margin-left: 82px;
+}
+
+.benefits__subtitle{
+    text-align: center;
+}
+
+.benefits-subtitle{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.benefits-text{
+    font-size: 16px;
+}
+
+.benefits__container{
+    display: grid;
+    grid-template-columns: repeat(4, 290px);
+    gap: 79px;
+}
