@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+}
+
+.footer__logo{
+    height: 35px;
+    width: 115px;
+}
+
+.footer__lists{
+    display: grid;
+    grid-template-columns: repeat(3, 180px);
+    gap: 40px;
+}

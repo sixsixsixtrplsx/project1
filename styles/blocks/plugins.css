@@ -1,3 +1,13 @@
+.section__plugins{
+    display: flex;
+    column-gap: 231px;
+    align-items: center;
+}
+
+.plugins{
+    position: relative;
+}
+
 .plugins__title{
     font-size: 16px;
     color: #60606080;
@@ -6,6 +16,10 @@
 .plugins__subtitle{
     font-size: 48px;
     font-weight: bold;
+}
+
+.plugins__keywords{
+    color: #0033FF;
 }
 
 .plugins__button{
@@ -25,4 +39,10 @@
 .plugins__button-link{
     text-decoration: none;
     color: white;
+}
+
+.plugins__image{
+    margin-left: 139px;
+    height: 550px;
+    width: 502px;
 }

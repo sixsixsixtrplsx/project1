@@ -1,0 +1,48 @@
+.section__studio{
+    display: flex;
+    column-gap: 117px;
+    align-items: center;
+}
+
+.studio__container{
+    margin-left: 139px;
+}
+
+.studio__title{
+    font-size: 16px;
+    color: #60606080;
+}
+
+.studio__subtitle{
+    font-size: 48px;
+    font-weight: bold;
+    margin-block-start: 3px;
+    margin-block-end: 18px;
+}
+
+.studio__keywords{
+    color: #0033FF;
+}
+
+.studio__text{
+    color: #958A8A;
+}
+
+.studio__button{
+    font-family: "Shne Breit", Arial, sans-serif;
+    color: white;
+    background-color: #0033FF;
+    border-width: 0px;
+    border-radius: 105px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    cursor: pointer;
+    font-size: 12px;   
+}
+
+.studio__button-link{
+    text-decoration: none;
+    color: white;
+}

@@ -12,6 +12,6 @@
 
 .featured__images{
     display: grid;
-    grid-template-columns: repeat(4, 147px);
+    grid-template-columns: repeat(5, 147px);
     gap: 79px;
 }
