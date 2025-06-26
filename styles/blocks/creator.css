@@ -1,0 +1,146 @@
+.creator {
+    font-family: 'Inter', sans-serif;
+    padding: 80px 0;
+    background: #0C0C0C;
+    max-height: 800px;
+    text-align: left;
+}
+
+.creator__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 60px;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+
+.creator__left {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    padding-left: 40px;
+}
+
+.creator__title {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.creator__span {
+    color: #0033FF;
+}
+
+.creator__description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ccc;
+    margin: 0 0 40px;
+}
+
+.creator__button {
+    background-color: #0033FF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.creator__button:hover {
+    background-color: #0022CC;
+}
+
+.creator__right {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.creator__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.creator__item {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #202020;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 216px; 
+    width: 290px;
+    margin: 10px;
+}
+
+.creator__item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.creator__description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ccc;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.creator__user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card__icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.creator__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.creator__name {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+.creator__role {
+    font-size: 13px;
+    color: #999;
+    font-weight: 500;
+    margin: 0;
+}
+
+.creator__right img[alt="Сеть интернета на планете"] {
+    width: 1074px;
+    height: auto;
+    z-index: 0;
+    transform: translate(30%, -80%);
+}

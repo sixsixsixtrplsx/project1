@@ -1,17 +1,38 @@
-.header{
-    display: flex;
-    position: relative;
-    align-items: center;
-    margin-left: 81px;
+.header {
+    font-family: "Shne Breit", Arial, sans-serif;
+    padding: 20px 0;
+    width: 100%;
     padding-top: 42px;
-    font-size: 10px;
-    column-gap: 79px;
     z-index: 1;
+    
 }
 
-.header__logo{
-    
-    position: relative; 
+.header__container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo img {
+    height: 30px;
+}
+
+.header__nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .header__pagination{
@@ -33,43 +54,28 @@
     color: black;
 }
 
-.header__buttons{
+.header__buttons {
+    font-family: "Shne Breit", Arial, sans-serif;
     display: flex;
-    margin-left: auto;
-    margin-right: 80px;
-    gap: 28px;
+    gap: 15px;
+    z-index: 3  ;
 }
 
-.header__button-log{
-    font-family: "Shne Breit", Arial, sans-serif;
-    color: white;
-    background-color: transparent;
-    border: 0;
-    cursor: pointer;
-    font-size: 10px;
+.btn-login {
     
-}
-
-.header__button-sign{
-    font-family: "Shne Breit", Arial, sans-serif;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    background: none;
     color: white;
-    background-color: #FFFFFF42;
-    border-width: 0px;
-    border-radius: 105px;
-    padding-left: 31px;
-    padding-right: 31px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     cursor: pointer;
-    font-size: 10px;    
 }
 
-.header__button-log-link{
-    text-decoration: none;
+.btn-signup {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #FFFFFF42;
     color: white;
-}
-
-.header__button-sign-link{
-    text-decoration: none;
-    color: white;
+    cursor: pointer;
 }

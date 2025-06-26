@@ -1,0 +1,45 @@
+.company {
+    font-family: 'Inter', sans-serif;
+    text-align: center; /* Центрируем содержимое */
+    margin-top: 300px;
+    position: relative;
+}
+
+.company__subtitle {
+    display: block;
+    font-size: 16px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.company__image {
+    display: flex;
+    justify-content: center; /* Центрируем логотипы */
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.company__img {
+    height: 70px; /* Средний размер как на фото */
+    width: auto;
+    opacity: 0.7;
+    filter: grayscale(30%); /* Легкий эффект grayscale как на скриншоте */
+    transition: all 0.3s ease;
+}
+
+.swiper {
+    width: 1440px;
+    height: 380px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

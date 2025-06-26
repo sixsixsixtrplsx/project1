@@ -1,19 +1,10 @@
-.studio {
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: left;
+.sound {
     font-family: 'Inter', sans-serif;
     padding: 80px 0;
-    justify-content: center;
-    margin-bottom: 50px;
+    text-align: center;
 }
 
-.studio__content {
-    max-width: 800px;
-    margin: 0 auto 40px;
-}
-
-.studio__subtitle {
+.sounds__subtitle {
     font-size: 14px;
     font-weight: 500;
     color: #555;
@@ -22,7 +13,7 @@
     margin-bottom: 15px;
 }
 
-.studio__title {
+.sounds__title {
     font-size: 48px;
     font-weight: 700;
     color: #000;
@@ -30,18 +21,19 @@
     margin-bottom: 20px;
 }
 
-.studio__span {
-    color: #0033FF; 
+.sounds__title-span {
+    color: #0033FF;
 }
 
-.studio__description {
+.sounds__description {
     font-size: 18px;
     line-height: 1.6;
     color: #555;
+    max-width: 700px;
     margin: 0 auto 30px;
 }
 
-.studio__button {
+.sounds__button {
     background-color: #0033FF;
     color: white;
     border: none;
@@ -50,20 +42,28 @@
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.3s;
     margin-bottom: 40px;
-    display: inline-block;
+    transition: background-color 0.3s;
 }
 
-.studio__button:hover {
+.sounds__button:hover {
     background-color: #0022CC;
 }
 
-.studio__image {
+.sounds__image {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.vector__image {
+    position: absolute;
    
-    margin: 0 auto;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+
 }

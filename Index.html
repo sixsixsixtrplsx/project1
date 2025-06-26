@@ -3,259 +3,317 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыка</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Where your music starts</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <!-- Заголовок -->
-        <header class="header">
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
 
+    <header class="container header">
+        <div class="header__container">
             <div class="header__logo">
-                <img src="img/logo.png" alt="logo">
+                <img src="img/logo.png" alt="Splice">
             </div>
-
-            <nav class="header__navigation">
+            <nav class="header__nav">
                 <ul class="header__pagination">
-                    <li class="header__pagination-item"><a class="header__pagination-item__link"
-                            href="studiopage.html">STUDIO</a> </li>
-                    <li class="header__pagination-item"><a class="header__pagination-item__link"
-                            href="coummunitypage.html">COMMUNITY</a></li>
-                    <li class="header__pagination-item"><a class="header__pagination-item__link"
-                            href="soundspage.html">SOUNDS</a></li>
-                    <li class="header__pagination-item"><a class="header__pagination-item__link"
-                            href="pluginspage.html">PLUGINS</a></li>
-                    <li class="header__pagination-item"><a class="header__pagination-item__link"
-                            href="blogpage.html">BLOG</a></li>
+                    <li class="header__pagination-item"><a href="#">СТУДИЯ</a></li>
+                    <li class="header__pagination-item"><a href="#">СОБЩЕСТВО</a></li>
+                    <li class="header__pagination-item"><a href="#">ЗВУКИ</a></li>
+                    <li class="header__pagination-item"><a href="#">ПЛАГИНЫ</a></li>
+                    <li class="header__pagination-item"><a href="#">БЛОГ</a></li>
                 </ul>
             </nav>
             <div class="header__buttons">
-                <button class="header__button-log" type="button" name="log in"><a class="header__button-log-link"
-                        href="#">LOG IN</a></button>
-                <button class="header__button-sign" type="button" name="sign up"><a class="header__button-sign-link"
-                        href="#">SIGN UP</a></button>
+                <button class="btn-login">ВОЙТИ</button>
+                <button class="btn-signup">ЗАРЕГИСТРИРОВАТЬСЯ</button>
             </div>
-        </header>
-        <!-- /Заголовок -->
+        </div>
+    </header>
 
-        <main class="container">
-            <!-- Первый экран -->
-            <section class="section__promo">
-                <div class="promo__content">
-                    <h2 class="promo__title">
-                        Where your<br>
-                        music starts
-                    </h2>
-                    <p class="promo__description">
-                        Royalty-free sounds. Industry-leading software.<br>
-                        Endless inspiration. Start creating with Splice.
-                    </p>
-                </div>
-                <div class="promo__buttons">
-                    <button class="promo__button" type="button" name="sign up"><a class="promo__button-link"
-                            href="#">SIGN UP</a></button>
-                </div>
-                <img class="promo__image" src="img/photo.png" alt="Фон">
-            </section>
+    <section class="container promo">
+        <div class="promo__content">
+            <h2>Там, где ваша<br> музыка начинается</h2>
+            <p> Бесплатные звуки. Лидирующее программное обеспечение в индустрии.Бесконечное вдохновление. Начни творить со Splice.</p>
+            <button class="btn-promo">ВОЙТИ</button>
+        </div>
+        <div class="promo__image">
+            <img src="img/people.png" class="promo__people" alt="Музыкальное творчество">
+        </div>
+    </section>
 
-            <!-- /Первый экран -->
 
-            <!-- Второй экран -->
-            <section class="section__featured">
-                <h2 class="featured__subtitle">FEATURED IN</h2>
-                <div class="featured__images">
-                    <img class="featured__image" src="img/variety.png" alt="Variety">
-                    <img class="featured__image" src="img/verge.png" alt="Verge">
-                    <img class="featured__image" src="img/billboard.png" alt="Billboard">
-                    <img class="featured__image" src="img/wired.png" alt="Wired">
-                    <img class="featured__image" src="img/complex.png" alt="Complex">
-                </div>
-            </section>
-            <!-- /Второй экран -->
-
-            <!-- Третий экран -->
-            <section class="section__sounds">
-                <h2 class="sounds__title">SOUNDS</h2>
-                <div class="sounds__subtitle">Find your <span class="sounds__keywords">sound</span></div>
-                <p class="sounds__text">
-                    Preview and download millions of royalty-free samples from<br>
-                    top producers, artists and sound designers. Available on<br>
-                    desktop, web, and mobile.<br>
-                </p>
-
-                <button class="sounds__button" type="button" name="try sounds"><a class="sounds__button-link"
-                        href='#'>TRY SOUNDS</a></button>
-                <div class="sounds__images">
-                    <img class="sounds__image" src="img/packs.png" alt="Sound">
-                </div>
-            </section>
-            <!-- /Третий экран -->
-
-            <!-- Четвертый экран-->
-            <section class="section__plugins">
-                <img class="plugins__image" src="img/logos.png" alt="Logos">
-                <div class="plugins">
-                <h2 class="plugins__title">PLUGINS</h2>
-                <p class="plugins__subtitle">
-                    Build your<br>
-                    <span class="plugins__keywords">digital studio</span></p>
-                <p class="plugins__text">
-                    Try industry-leading music software for<br>
-                    free, pay it off over time and own it forever<br>
-                </p>
-                <button class="plugins__button" type="button" name="try sounds"><a class="plugins__button-link"
-                        href="#">TRY GEAR</a></button>
-                </div>
-            </section>
-            <!--/Четвертый экран-->
-
-            <!--Пятый экран-->
-            <section class="section__studio">
-                <div class="studio__container">
-                <h2 class="studio__title">STUDIO</h2>
-                <p class="studio__subtitle">Stay in <span class="studio__keywords">sync</span></p>
-                <p class="studio__text">Try industry-leading music software for<br>
-                    free, pay it off over time and own
-                    it forever<br>
-                </p>
-                <button class="studio__button" type="button" name="try sounds"><a class="studio__button-link"
-                    href="#">TRY STUDIO</a></button>
-                </div>
-                <img class="studio__image" src="img/browse.png" alt="Browse">
-            </section>
-            <!--/Пятый экран-->
-            
-            <!--Шестой экран-->
-            <section class="section-desc">
-                <img class="desc__image" src="img/planet.png" alt="background">
-                <h1 class="desc__title">What creators are saying about Splice</h1>
-                <p class="desc__text">
-                    Lorem ipsum dolor sit amet, consectetur<br>
-                    adipiscing elit. Augue tellus uma, mi velit<br>
-                    diam. Turpis diam amet massa id.<br>
-                    <button class="desc__button" type="button" name="try it now">TRY IT NOW</button>
-                </p>
-                
-            </section>
-
-            <section class="section-benefits">
-                <h2 class="benefits__subtitle">As good as it sounds</h2>
-                <div class="benefits__container">
-                    <div class="benefits__container-item">
-                    <img src="img/Volume Up.svg" class="section-benefits__icon">
-                    <p class="benefits-subtitle">100 royalty free</p>
-                    <p class="benefits-text">Use sound for anything. They re cleared for commercial use</p>
+    <section class="section company">
+        <h4 class="company__subtitle">СОВМЕСТНО</h4>
+        <div class="company__image">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/variety.png" alt="Variety" class="company__img">
                     </div>
-                    <div class="benefits__container-item">
-                    <img class="benefits__icon" src="img/Unock.svg" >
-                    <p class="benefits-subtitle">No commitments</p>
-                    <p class="benefits-text">Cancel your subscription at any time, no questions asked.</p>
+                    <div class="swiper-slide">
+                        <img src="img/the_verge.png" alt="Verge" class="company__img">
                     </div>
-                    <div class="benefits__container-item">
-                    <img class="benefits-icon" src="img/Download.svg">
-                    <p class="benefits-subtitle">Yours forever</p>
-                    <p class="benefits-text">Keep everything you download.<br>
-                        Even if you cancel</p>
+                    <div class="swiper-slide">
+                        <img src="img/billboard.png" alt="Billboard" class="company__img">
                     </div>
-                    <div class="benefits__container-item">
-                    <img class="benefits__icon" src="img/Play.svg">
-                    <p class="benefits-subtitle">Individual samples</p>
-                    <p class="benefits-text">Preview download individual samples, not just full packs</p>
+                    <div class="swiper-slide">
+                        <img src="img/wired.png" alt="Wired" class="company__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/complex.png" alt="Complex" class="company__img">
                     </div>
                 </div>
-                <h1>Come change the way people make music</h1>
-                <button class="button section-benefits__button" type="button" name="try sounds">JOBS AT SPLICE</button>
-            </section>
-            <!--/Шестой экран-->
-        </main>
-        <!--Подвал-->
-        <footer class="footer">
-            <img class="footer__logo" src="img/logo.png" alt="logo">
-            <p class="footer__text">2021 Splice.com All Rights Reserved</p>
-            <div class="footer__lists">
-            <div>
-            <h2 class="footer__subtitle">STUDIO</h2>
-            <ul class="footer__list">
-                <li class="footer__item"><a href="#">Features</a></li>
-                <li class="footer__item"><a href="#">About Splice Studio</a></li>
-                <li class="footer__item"><a href="#">Managing Your Production Library</a></li>
-                <li class="footer__item"><a href="#">Collaborating with Baewatch</a></li>
-            </ul>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container sound">
+
+        <div class="sounds__content">
+            <h4 class="sounds__subtitle">ЗВУКИ</h4>
+            <h2 class="sounds__title">Найди свой<span class="sounds__title-span"> звук</span></h2>
+            <p class="sounds__description">
+                Просматривай и скачивай миллионы бесплатных сэмплов от<br>
+                лучших продюсеров, артистов и звукорежиссёров. Доступно<br>
+                в настольной, веб и мобильной версиях.
+            </p>
+            <button class="sounds__button" type="button">ПОПРОБОВАТЬ ЗВУКИ</button>
+        </div>
+
+        <img class="vector__image" src="img/Vector.png" alt="Фоновая линия">
+        <img class="sounds__image" src="img/packs.png" alt="Свойский саундпад">
+    </section>
+    <section class="section plugins">
+        <div class="plugins__content">
+            <h4 class="plugins__subtitle">ПЛАГИНЫ</h4>
+            <h2 class="plugins__title">Построй свою<br><span class="plugins__span">цифровую студию</span></h2>
+            <p class="plugins__description"> Попробуй лучшее бесплатное программное обеспечение бесплатно с возможностью выкупа</p>
+            <button class="plugins__button" type="button">ПОПРОБОВАТЬ СТУДИЮ </button>
+        </div>
+        <div class="logo-circle-container">
+            <div class="circle">
+
+            </div>
+            <img src="img/logo_lips.png" class="logo logo_lips" alt="Лого 1">
+            <img src="img/logo_vints.png" class="logo logo_vints" alt="Лого 2">
+            <img src="img/logo_waves.png" class="logo logo_waves" alt="Лого 3">
+            <img src="img/logo_vinil.png" class="logo logo_vinil" alt="Лого 4">
+            <img src="img/logo_izotope.png" class="logo logo_izotope" alt="Лого 5">
+            <img src="img/logo_rc-20.png" class="logo logo_rc-20" alt="Лого 6">
+            <img src="img/logo_serum.png" class="logo logo_serum" alt="Лого 7">
+            <img src="img/logo_orange.png" class="logo logo_orange" alt="Лого 8">
+            <img src="img/logo_A.png" class="logo logo_A" alt="Лого 9">
+        </div>
+    </section>
+
+    <section class="container studio">
+
+        <img class="studio__image" src="img/browse.png" alt="Показ функционала внутри">
+
+        <div class="studio__content">
+            <h4 class="studio__subtitle">Студия</h4>
+            <h2 class="studio__title">Будь <br><span class="studio__span"> в тренде</span></h2>
+            <p class="studio__description">Попробуйте ведущее в отрасли <br> музыкальное программное обеспечение<br>
+                бесплатно, со временем окупите его и
+                будете его владельцем навсегда.</p>
+            <button class="studio__button" type="button">Попробуйте студию</button>
+        </div>
+    </section>
+
+    <section class="container creator">
+        <div class="creator__content">
+            <!-- Левая часть -->
+            <div class="creator__left">
+                <h2 class="creator__title">Что говорят <span class="creator__span">артисты</span> о Splice</h2>
+                <p class="creator__description">
+                    Клиент очень важен, за клиентом пойдет клиент.<br>
+                    Augue tellus urna, mi velit diam.<br>
+                    Turpis diam amet massa id.
+                </p>
+                <button class="creator__button" type="button">Попробуйте прямо сейчас</button>
             </div>
 
-            <div>
-                <h2 class="footer__subtitle">COMMUNITY</h2>
-                <ul class="footer__list">
-                    <li class="footer__item"><a href="#">Ableton Live Projects</a></li>
-                    <li class="footer__item"><a href="#">About Splice Studio</a></li>
-                    <li class="footer__item"><a href="#">Managing Your Production Library</a></li>
-                    <li class="footer__item"><a href="#">Collaborating with Baewatch</a></li>
+            <div class="creator__right">
+                <div class="creator__list">
+                    
+                </div>
+                <img src="img/planet.png" alt="Сеть интернета на планете">
+            </div>
+        </div>
+    </section>
+<section class="container features">
+  <div class="features__content">
+    <h2 class="features__title">Как звучит на самом деле</h2>
+
+    <div class="features__grid">
+      <div class="feature">
+        <img src="img/Volume_Up.png" alt="Heart icon" class="feature__icon">
+        <h3 class="feature__subtitle">100% свободных от авторских прав</h3>
+        <p class="feature__description">Используйте звуки для чего угодно. Они разрешены для коммерческого использования.</p>
+      </div>
+      <div class="feature">
+        <img src="img/Unlock.png" alt="Lock icon" class="feature__icon">
+        <h3 class="feature__subtitle">Без обязательств</h3>
+        <p class="feature__description">Отмените подписку в любое время, без вопросов.</p>
+      </div>
+      <div class="feature">
+        <img src="img/Download.png" alt="Download icon" class="feature__icon">
+        <h3 class="feature__subtitle">Ваше навсегда</h3>
+        <p class="feature__description">Сохраняйте всё, что скачали. Даже если отмените подписку.</p>
+      </div>
+      <div class="feature">
+        <img src="img/Play.png" alt="Play icon" class="feature__icon">
+        <h3 class="feature__subtitle">Индивидуальные образцы</h3>
+        <p class="feature__description">Просмотр и загрузка отдельных образцов, а не только полных пакетов.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="container jobs">
+        <h2 class="jobs__title">Приди и измени то,<br>
+            как люди создают музыку</h2>
+        <button class="jobs__button" type="button"> Работа в Splice</button>
+    </section>
+
+    </main>
+
+    <footer class="footer container">
+        <div class="footer__logo">
+            <img class="logotype" src="img/Logo.png" alt="logo_company">
+            <p class="date__of__protect">2021 Splice.com Все права защищены</p>
+        </div>
+
+
+        <nav class="footer__nav">
+            <div class="footer__nav-block">
+                <h2 class="footer__nav__title">Студия</h2>
+                <ul class="footer__nav__list">
+                    <li class="footer__nav-list-item"><a href="#">Будущее</a></li>
+                    <li class="footer__nav-list-item"><a href="#">О Splice Студии</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Управление вашей <br>
+                            библиотекой</a>
+                    </li>
+                    <li class="footer__nav-list-item"><a href="#">Сотрудничество с Baewatch</a></li>
                 </ul>
             </div>
+
+            <div class="footer__nav-block">
+                <h2 class="footer__nav__title">Сообщество</h2>
+                <ul class="footer__nav__list">
+
+                    <li class="footer__nav-list-item"><a href="#">Проекты Ableton Live</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Проекты FL Studio</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Logic Pro X Проекты</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Проекты Garageband</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Конкурсы ремиксов</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Секреты Tiesto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__nav-block">
+                <h2 class="footer__nav__title">Звуки</h2>
+                <ul class="footer__nav__list">
+
+                    <li class="footer__nav-list-item"><a href="#">Особенности</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Каталог</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Как Juaz использует звуки</a></li>
+                    <li class="footer__nav-list-item"><a href="#">химера deadmau5s</a></li>
+                    <li class="footer__nav-list-item"><a href="#">KSHMR Vol. 2</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__nav-block">
+                <h2 class="footer__nav__title">Плагины</h2>
+                <ul class="footer__nav__list">
+
+                    <li class="footer__nav-list-item"><a href="#">Лучшие VST</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Serum</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Аренда в собственность</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Бесплатные плагины</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Лучшие производители</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__nav-block">
+                <h2 class="footer__nav__title">Битмейкер</h2>
+                <ul class="footer__nav__list">
+
+                    <li class="footer__nav-list-item"><a href="#">Создайте Свой собственный Ритм</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Wakapella</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Just Blaze</a></li>
+                </ul>
+            </div>
+
             
-            <div>
-            <h2 class="footer__subtitle">SOUNDS</h2>
-            <ul class="footer__list">
-                <li class="footer__item"><a href="#">Features</a></li>
-                <li class="footer__item"><a href="#">Catalog</a></li>
-                <li class="footer__item"><a href="#">How Hauz Uses Sounds</a></li>
-                <li class="footer__item"><a href="#">deadmau5s Chimaera</a></li>
-                <li class="footer__item"><a href="#">KSHMR Vol.2</a></li>
-            </ul>
+
+            <div class="footer__nav-block">
+                <h2 class="footer__nav__title">Блог</h2>
+                <ul class="footer__nav__list">
+                    <li class="footer__nav-list-item"><a href="#">Последние посты</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Использование композиций<br> Soundtoys</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Мастеринг 101</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Создание будущих ритмов</a></li>
+                    <li class="footer__nav-list-item"><a href="#">Принадлежность Splice</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="footer__social-networks">
+            <h2>Найдите нас в соц сетях</h2>
+            <div class="footer__social-media">
+                <img class="footer__social-media-facebook" src="img/Facebook.png" alt="facebook">
+                <img class="footer__social-media-twitter" src="img/Twitter.png" alt="twitter">
+                <img class="footer__social-media-instagram" src="img/Instagram.png" alt="instagram">
+                <img class="footer__social-media-youtube" src="img/YouTube.png" alt="youtube">
             </div>
 
-            <div>
-            <h2 class="footer__subtitle">PLUGINS</h2>
-            <ul class="footer__list">
-                <li class="footer__item"><a href="#">Top VSTs</a></li>
-                <li class="footer__item"><a href="#">Serum</a></li>
-                <li class="footer__item"><a href="#">Rent to Own</a></li>
-                <li class="footer__item"><a href="#">Free Plugins</a></li>
-                <li class="footer__item"><a href="#">Top Manufacturers</a></li>
-            </ul>
-            </div>
 
-            <div>
-            <h2 class="footer__subtitle">BEATMAKER</h2>
-            <ul class="footer__list">
-                <li class="footer__item"><a href="#">Create Your Own Beat</a></li>
-                <li class="footer__item"><a href="#">Wakapella</a></li>
-                <li class="footer__item"><a href="#">Just Blaze</a></li>
+            <ul class="footer__nav__list">
+                <li class="footer__nav-list-item"><a href="#">Условия использования</a></li>
+                <li class="footer__nav-list-item"><a href="#">Политика конфиденциальности</a></li>
+                <li class="footer__nav-list-item"><a href="#">Работы</a></li>
+                <li class="footer__nav-list-item"><a href="#">Контакты</a></li>
+                <li class="footer__nav-list-item"><a href="#">Помощь</a></li>
             </ul>
-            </div>
+        </div>
 
-            <div>
-            <h2 class="footer__subtitle">BLOG</h2>
-            <ul class="footer__list">
-                <li class="footer__item"><a href="#">Latest Posts</a></li>
-                <li class="footer__item"><a href="#">Using Soundtoys Decapitator</a></li>
-                <li class="footer__item"><a href="#">Mastering 101</a></li>
-                <li class="footer__item"><a href="#">Belonging at Splice</a></li>
-            </ul>
-            </div>
 
-            <div>
-            <h2 class="footer_subtitle">FIND US ON SOCIAL</h2>
-            <div class="footer__logos">
-                <img class="footer__logo" src="img/facebooklogo.svg" alt="facebook">
-                <img class="footer__logo" src="img/twitterlogo.svg" alt="twitter">
-                <img class="footer__logo" src="img/instalogo.svg" alt="instagram">
-                <img class="footer__logo" src="img/ytlogo.svg" alt="youtube">
-            </div>
-            </div>
-            
-            <p class="footer__text">Terms of Use
-                Privacy Policy
-                Jobs
-                Contact
-                Help
-            </p>
-            </div>
-        </footer>
-        <!--/Подвал-->
+    </footer>
     </div>
+
+    <div class="modal" id="formModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-window">
+            <span class="exit-button">&times;</span>
+            <h2>Регистрация</h2>
+            <form id="contactForm" class="form">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <div class="modal-buttons">
+                    <button type="submit", class="submit-button">ОК</button>
+                    <button type="button" class="cansel-button">Отмена</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="scripts/scripts.js"></script>
+    <script src="ts/script.ts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
+
 </html>

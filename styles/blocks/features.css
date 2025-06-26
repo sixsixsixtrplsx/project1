@@ -1,0 +1,38 @@
+.features {
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    background-color: #0C0C0C; 
+    color: #fff; 
+    padding-left: 82px;
+}
+
+.features__title {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.features__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 290px);
+    gap: 35px;
+    padding: 30px;
+    text-align: left;
+}
+
+
+.feature__icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.feature__subtitle {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.feature__description {
+    font-size: 16px;
+    color: #ccc; 
+}
